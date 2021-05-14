@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&family=Shadows+Into+Light&display=swap');
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+p{
+    font-size: 1em;
+    color: #828282;
+    word-spacing: 0.1rem;
+    font-family: 'Roboto',sans-serif !important;
+}
+/*font families
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shadows Into Light', cursive;*/
+
+/*font sizes*/
+.section_heading{
+    font-size: 26px;
+    font-weight: 700 !important;
+}
+/*colors*/
+.sec_3-colors{
+    color: #479f91;
+}
+
+/*nav part*/
+.navbar {
+    display:flex !important;
+    flex-direction: row  !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.pl_nav{
+ padding-left: 40px !important;
+}
+.pr_nav{
+  padding-right: 40px !important;
+}
+.header-le-bake{
+    padding-top: 1.8em;
+    font-size: 80px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
+.bakery-header-part{
+    background-image: url(../images/banner-bakery.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+   
+}
+.baground-half-circle{
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%,);
+    height: 50px;
+    width: 100px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgb(255, 255, 255);
+}
+.fa-sort-down{
+    padding-left: 38px;
+    font-size: 34px;
+}
+
+
+
+
+/*section-2 grid images and text part*/
+.section-two-grids{
+    padding-top: 9em;
+    
+}
+.section-two-grids::after{
+    
+    content: '';
+    width: 88%;
+    height: 1.5px;
+    background: #808080bb;
+    display: block;
+    margin: 2px auto;
+    position: relative;
+    margin-top: 9em;
+}
+.two-grids-imgs{
+    height: 200px;
+    
+}
+.grid-text-heading{
+      color: #ee6881;
+      padding-bottom: .4em;
+}
+.create-delicious{
+    padding-top: 1.5em;
+   padding-left: 7.5em;
+}
+.create-delicious img{
+    width: 300px; height: 166px;
+}
+
+
+
+/*section-3 freshly+imge shadow*/
+.section-three-image-shadow{
+    padding-top: 9em;
+    padding-bottom: 9em;
+}
+.section-three-image-shadow .section_heading{
+    padding-bottom: .9em;
+}
+.create-delicious-1{
+    padding-top: 2.5em;
+    padding-right: 1rem;
+}
+.btn-f-m-r{
+    border-radius: 5px;
+    background-color:#479f91;
+    padding: 10px 30px 10px 30px;
+}
+.btn-f-m-r span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.freshly-baked{
+    padding-top: 1.9em;
+}
+.find-more-btn{
+    padding-top: 2.8em;
+}
+
+
+
+/*section four full width images*/
+.section-four-grids{
+    padding-top: 9em;
+    padding-bottom: 9em;
+}
+.fa-arrow-right{
+    padding-left: 4px;
+}
+.finest-pt h4{
+   padding-bottom: .4em;
+}
+.finest-pt p{
+    padding-bottom: .2em;
+ }
+.pad-mr-no{
+    margin: 0 !important;
+    padding: 0 !important;
+    --bs-gutter-x: 0rem !important;
+
+}
+.lern-more-arrow{
+    color:#e0c08e;
+   font-size: 18px;
+   display: flex;
+   display: row;
+   align-items: center;
+   justify-content: center;
+}
+
+
+/*section five-bg */
+.section-five-bg-fxd{
+    background-image: url(../images/cakebanner.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-attachment: fixed;
+}
+.the-best-place{
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.breads-ad-cakes{
+    font-family: 'Shadows Into Light', cursive;
+      color: #d2df6b;
+      word-spacing: .1em;
+      letter-spacing: .2em;
+      font-size: 45px !important;
+      font-weight: 700;
+}
+.courosal-pad{
+    padding-top: 9em;
+   
+}
+
+/*footer*/
+
+#contact-form .form-control{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: 0;
+}
+.con-form-footer li{
+    margin-top: 12px;
+}
+.con-form-footer li span{
+    padding-left: 8px;
+}
+.delivary-available{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
